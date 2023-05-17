@@ -70,27 +70,23 @@
   align-items: center; }
 
 .descripcion {
-  color: yellowgreen; }
+  color: white;
+  grid-area: tex;
+  background-color: #8B41F2;
+  width: 70%;
+  height: 10rem;
+ }
 
-.footer-producto {
-  background-color: black;
-  width: 90%;
-  height: 7rem;
-  margin: 0 auto;
-  border-radius: 10px;
-  padding: 10px;
-  margin-top: 2rem;
-  display: flex;
-  color: #ee4a4a;
-  justify-content: space-between; 
-}
+ .imagen-producto{
+  grid-area: prod;
+ }
+
 
 .carousel{
   width: 90%;
   margin: 0 auto;
   margin-top: 1rem;
   height: 32rem;
-  z-index: -100;
 }
 
 
@@ -102,4 +98,64 @@
 .container-fluid{
   background-color: #8B41F2;
   z-index: 100;
+}
+
+@media (max-width: 720px) {
+  .footer-principal{
+    flex-direction: column;
+    height: 20rem;
+  }
+}
+
+.contenedor-grid{
+  display: grid;
+  grid-templates-rows: repeat(8,1fr);
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1rem;
+  grid-template-areas:
+  "prod tex tex"
+  "prod tex tex"
+  "prod tex tex"
+  "prod tex tex"
+  "prod tex tex"
+  "prod tex tex"
+  "prod tex tex"
+  "prod tex tex"
+  ;
+  overflow: auto;
+  margin-top: 2rem;
+  
+}
+
+@media (max-width: 720px) {
+  .contenedor-grid{
+    display: grid;
+    grid-templates-rows: repeat(16,1fr);
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    grid-template-areas:
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    "prod tex"
+    ;
+  }
+}
+@media (max-width: 720px){
+  .producto{
+    display: flex;
+    flex-direction: column;
+  }
 }
