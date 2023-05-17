@@ -104,6 +104,7 @@
   .footer-principal{
     flex-direction: column;
     height: 20rem;
+    margin-top: 1rem;
   }
 }
 
@@ -130,7 +131,7 @@
 @media (max-width: 720px) {
   .contenedor-grid{
     display: grid;
-    grid-template-rows: repeat(16,1fr);
+    grid-template-rows: repeat(8,1fr);
     grid-template-columns: 1fr;
     grid-gap: 1rem;
     grid-template-areas:
@@ -142,15 +143,8 @@
     "prod tex"
     "prod tex"
     "prod tex"
-    "prod tex"
-    "prod tex"
-    "prod tex"
-    "prod tex"
-    "prod tex"
-    "prod tex"
-    "prod tex"
-    "prod tex"
     ;
+    overflow: auto;
   }
 }
 @media (max-width: 720px){
