@@ -15,13 +15,13 @@
  }
 
 .titulo {
-  background-color: black;
-  color: #ee4a4a;
+  background-color: #8B41F2;
+  color: white;
   margin-top: 1rem;
  }
 
 .barra-de-navegacion {
-  background-color: black;
+  background-color: #8B41F2;
   width: 90%;
   height: 70px;
   margin: 0 auto;
@@ -39,14 +39,14 @@
 
 .navegador-link {
   text-decoration: none;
-  color: #ee4a4a; 
+  color: white; 
 }
 
 .navegador-link:hover {
   color: greenyellow; }
 
 .footer-principal {
-  background-color: black;
+  background-color: #8B41F2;
   width: 90%;
   height: 7rem;
   margin: 0 auto;
@@ -54,11 +54,11 @@
   padding: 10px;
   margin-top: 1rem;
   display: flex;
-  color: #ee4a4a;
+  color: white;
   justify-content: space-between; }
 
 .contenedor-de-productos {
-  background-color: #854085;
+  background-color: #8B41F2;
   width: 90%;
   height: 30rem;
   margin: 0 auto;
@@ -82,10 +82,24 @@
   margin-top: 2rem;
   display: flex;
   color: #ee4a4a;
-  justify-content: space-between; }
+  justify-content: space-between; 
+}
 
-  .carousel{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 1rem;
-  }
+.carousel{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  height: 32rem;
+  z-index: -100;
+}
+
+
+.d-block{
+  height: 30rem;
+}
+
+
+.container-fluid{
+  background-color: #8B41F2;
+  z-index: 100;
+}
