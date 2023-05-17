@@ -109,7 +109,7 @@
 
 .contenedor-grid{
   display: grid;
-  grid-templates-rows: repeat(8,1fr);
+  grid-template-rows: repeat(8,1fr);
   grid-template-columns: 1fr 2fr;
   grid-gap: 1rem;
   grid-template-areas:
@@ -130,7 +130,7 @@
 @media (max-width: 720px) {
   .contenedor-grid{
     display: grid;
-    grid-templates-rows: repeat(16,1fr);
+    grid-template-rows: repeat(16,1fr);
     grid-template-columns: 1fr;
     grid-gap: 1rem;
     grid-template-areas:
