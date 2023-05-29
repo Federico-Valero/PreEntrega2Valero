@@ -1,0 +1,103 @@
+.contenedor-grid{
+    display: grid;
+    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: 25rem 15rem 1fr;
+    grid-template-areas:
+    "filt prod1 tex1"
+    "filt prod2 tex2"
+    "filt prod3 tex3"
+    "filt prod4 tex4"
+    "filt prod5 tex5"
+    "filt prod6 tex6"
+    "filt prod7 tex7"
+    "filt prod8 tex8"
+    ;
+    grid-gap: 1rem;
+    margin-top: 2rem;
+    .filtros{
+        background-color: #8B41F2;
+        grid-area: filt;
+        color: white;
+        margin-left: 1rem;
+        .titulo-categorias{
+            color: $colorblanco;
+            text-align: center;
+        }
+        .accordion{
+            background-color: $colorfondo;
+            .accordion-item{
+                background-color: $colorfondo;
+                .accordion-header{
+                    background-color: $colorfondo;
+                    .accordion-button{
+                        background-color: $colorfondo;
+                        color: $colorblanco;
+                    }
+                }
+                .accordion-collapse{
+                    background-color: $colorfondo;
+                    .accordion-body{
+                        list-style: none;
+                        .navegador-link{
+                            text-decoration: none;
+                            color: white; 
+                            &:hover{
+                                color: #53A61C;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @for $i from 1 to 9{
+        .imagen-producto#{$i}{
+            grid-area: prod#{$i};
+        }
+        .descripcion#{$i}{
+            color: $colorblanco;
+            grid-area: tex#{$i};
+            background-color: $colorfondo;
+            height: 10rem;
+            width: 90%;
+        }
+    }
+    @include mediaquery(768px){
+        display: grid;
+        grid-template-rows: repeat(17,1fr);
+        grid-template-columns: 1fr;
+        grid-gap: .5rem;
+        grid-template-areas:
+        "filt"
+        "prod1"
+        "tex1"
+        "prod2"
+        "tex2"
+        "prod3"
+        "tex3"
+        "prod4" 
+        "tex4"
+        "prod5" 
+        "tex5"
+        "prod6" 
+        "tex6"
+        "prod7" 
+        "tex7"
+        "prod8" 
+        "tex8"
+        ;
+        justify-items: center;
+        .filtros{
+            width: 90%;
+            .accordion{
+                height: 10rem;
+                overflow: auto;
+            }
+        }
+        @for $i from 1 to 9{
+            .descripcion#{$i}{
+                text-align: center;
+            }
+        }
+    }
+}

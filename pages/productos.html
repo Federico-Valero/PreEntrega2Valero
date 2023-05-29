@@ -12,15 +12,16 @@
 <body class="cuerpo">
 
     <header class="cabecera">
-
+<!--Imagen logo de pagina-->
         <a href="../index.html"><img src="../img/logo-de-pagina.jpg" alt="logo de Gamer Things y link a pagina pricipal"></a>
+<!--Titulo de la pagina-->
         <section class="titulo">
 
         <h1>Gamer Things</h1>       
 
         </section>
-
-        <nav class="barra-de-navegacion navbar navbar-expand-lg bg-body-tertiary">
+<!--Barra de navegacion-->
+        <nav class="barra-de-navegacion navbar navbar-expand-lg">
 
             <div class="container-fluid">
             
@@ -28,37 +29,33 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                
-                    <ul class="navegador navbar-nav">
+                <ul class="collapse navbar-collapse" id="navbarNav">
                     
-                        <li class="nav-link">
+                    <li class="navegador navbar-nav">
                             
-                            <a href="./productos.html" class="navegador-link">Productos</a>
+                        <a href="./productos.html" class="navegador-link">Productos</a>
                         
-                        </li>
+                    </li>
                         
-                        <li class="nav-link">
+                    <li class="navegador navbar-nav">
                         
-                            <a href="./arma-tu-pc.html" class="navegador-link">Arma tu PC</a>
+                        <a href="./arma-tu-pc.html" class="navegador-link">Arma tu PC</a>
                         
-                        </li>
+                    </li>
                         
-                        <li class="nav-link">
+                    <li class="navegador navbar-nav">
                         
-                            <a href="./contactanos.html" class="navegador-link">Contactanos</a>
+                        <a href="./contactanos.html" class="navegador-link">Contactanos</a>
                         
-                        </li>
+                    </li>
                         
-                        <li class="nav-link">
+                    <li class="navegador navbar-nav">
                         
-                            <a href="./ayuda.html"        class="navegador-link">Ayuda</a>
+                        <a href="./ayuda.html"        class="navegador-link">Ayuda</a>
                         
-                        </li>
+                    </li>
                     
-                    </ul>
-                
-                </div>
+                </ul>
             
             </div>
             
@@ -68,62 +65,324 @@
 
     <main>
     
-    <section class="contenedor-grid">
+        <section class="contenedor-grid">
+            <!--Barra lateral izquierda con las cotegorias-->
+            <article class="filtros">
 
-        <article class="producto">
+                <h2 class="titulo-categorias">Categorias</h2>
 
-            <a href=""><img src="../img/i3.jpg" alt="imagen de i3" class="imagen-prudcto"> </a>
-            <h2 class="descripcion">Procesdor I3</h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Notebooks
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <a href="#" class="navegador-link">Notebooks</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Procesadores
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Procesadores AMD</a></li>
+                                <li><a href="#" class="navegador-link">Procesadores Intel</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Placas Madre
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Placas madre AMD</a></li>
+                                <li><a href="#" class="navegador-link">Placas madre Intel</a></li>
+                            </ul>
+                        </div>                        
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Placas de video
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Placa de video GeForce</a></li>
+                                <li><a href="#" class="navegador-link">Placa de video Radeon AMD</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                Memorias RAM
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Memorias</a></li>
+                                <li><a href="#" class="navegador-link">Memorias Notebook</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                Almacenamiento
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Discos Rigidos</a></li>
+                                <li><a href="#" class="navegador-link">Discos Solidos SSD</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                Refrigeracion
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Coolers Fan</a></li>
+                                <li><a href="#" class="navegador-link">Coolers CPU</a></li>
+                                <li><a href="#" class="navegador-link">Pasta termica</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                                Gabinetes
+                            </button>
+                        </h2>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Gabinetes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                                Fuentes
+                            </button>
+                        </h2>
+                        <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Fuentes de alimentacion</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                                Monitores
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Monitores</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                                Perifericos
+                            </button>
+                        </h2>
+                        <div id="flush-collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Auriculares</a></li>
+                                <li><a href="#" class="navegador-link">Teclados</a></li>
+                                <li><a href="#" class="navegador-link">Mouses</a></li>
+                                <li><a href="#" class="navegador-link">Webcam</a></li>
+                                <li><a href="#" class="navegador-link">Joysticks</a></li>
+                                <li><a href="#" class="navegador-link">Mouses Pad</a></li>
+                                <li><a href="#" class="navegador-link">Parlantes</a></li>
+                                <li><a href="#" class="navegador-link">Combos de Perifericos</a></li>
+                                <li><a href="#" class="navegador-link">Microfonos</a></li>
+                                <li><a href="#" class="navegador-link">Accesorios para Auriculares</a></li>
+                                <li><a href="#" class="navegador-link">Volantes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                                Sillas Gamers
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Sillas Gamers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+                                Conectividad
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Placas e red inalambricas</a></li>
+                                <li><a href="#" class="navegador-link">Routers WIFI</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+                                Estabilizadores y UPS
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFourteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Estabilizadores</a></li>
+                                <li><a href="#" class="navegador-link">UPS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFiveteen" aria-expanded="false" aria-controls="flush-collapseFiveteen">
+                                Cables y Adaptadores
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFiveteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Cables y adaptadores</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSixteen" aria-expanded="false" aria-controls="flush-collapseSixteen">
+                                Celulares yt Smartwatch
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSixteen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <ul class="accordion-body">
+                                <li><a href="#" class="navegador-link">Celulares</a></li>
+                                <li><a href="#" class="navegador-link">Smartwatch</a></li>
+                                <li><a href="#" class="navegador-link">Accesorios de cululares</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             
-        </article>
+            </article>
+            <!--Imagenes y descripcion de cada producto-->
+            <article class="imagen-prudcto1">
 
-        <article class="producto">
-
-            <a href=""><img src="../img/i7.jpg" alt="imagen de i7"> </a>
-            <h2 class="descripcion">Procesdor I7</h2>
-            
-        </article>
-
-        <article class="producto">
-
-            <a href=""><img src="../img/monitor24.jpg" alt="imagen de monitor de 24 pulgadas"> </a>
-                <h2  class="descripcion">Monitor 24 pulgadas</h2>
-            
-        </article>
-
-            <article class="producto">
-
-                <a href=""><img src="../img/monitor27.jpg" alt="imagen de monitor de 27 pulgadas"> </a>
-                <h2  class="descripcion">Monitor 27 pulgadas</h2>
+                <a href=""><img src="../img/i3.jpg" alt="imagen de i3"></a>
             
             </article>
 
-            <article class="producto">
+            <article class="descripcion1">
+
+                <p>Procesdor I3</p>
+
+            </article>
+
+            <article class="imagen-prudcto2">
+
+                <a href=""><img src="../img/i7.jpg" alt="imagen de i7"></a>
+            
+            </article>
+
+            <article class="descripcion2">
+
+                <p>Procesdor I7</p>
+
+            </article>
+
+            <article class="imagen-prudcto"3>
+
+                <a href=""><img src="../img/monitor24.jpg" alt="imagen de monitor de 24 pulgadas"></a>
+            
+            </article>
+
+            <article class="descripcion3"> 
+
+                <p>Monitor 24 pulgadas</p>
+
+            </article>
+
+            <article class="imagen-prudcto4">
+
+                <a href=""><img src="../img/monitor27.jpg" alt="imagen de monitor de 27 pulgadas"></a>
+            
+            </article>
+
+            <article class="descripcion4"> 
+
+                <p>Monitor 27 pulgadas</p>
+
+            </article>
+
+            <article class="imagen-prudcto5">
 
                 <a href=""><img src="../img/Teclado.jpg" alt="imagen de teclado"> </a>
-                <h2 class="descripcion">Teclado</h2>
             
             </article>
 
-            <article class="producto">
+            <article class="descripcion5">
+
+                <p>Teclado</p>
+
+            </article>
+
+            <article class="imagen-prudcto6">
 
                 <a href=""><img src="../img/teclado2.jpg" alt="imagen de teclado"> </a>
-                <h2 class="descripcion">Teclado</h2>
             
             </article>
 
-            <article class="producto">
+            <article class="descripcion6">
+
+                <p>Teclado</p>
+
+            </article>
+
+            <article class="imagen-prudcto7">
 
                 <a href=""><img src="../img/Mouse.jpg" alt="imagen de mouse"> </a>
-                <h2 class="descripcion">Mouse</h2>
             
             </article>
 
-            <article class="producto">
+            <article class="descripcion7">
+
+                <p>Mouse</p>
+
+            </article>
+
+            <article class="imagen-prudcto8">
 
                 <a href=""><img src="../img/Mouese2.jpg" alt="imagen de mouse"> </a>
-                <h2 class="descripcion">Mouse</h2>
             
+            </article>
+
+            <article class="descripcion8">
+
+                <p>Mouse2</p>
+
             </article>
 
         </section>
@@ -133,25 +392,25 @@
 
         <section>
 
-            <h4>Telefono: 261729938</h4>
+            <h4>Telefono: 26172993</h4>
             <h4>Mail: federicovalero28@gmail.com</h4>
-            <a href="./contactanos.html" class="navegador-link">Contacto</a>
+            <a href="./contactanos.html" class="navegador-link">Contactanos</a>
 
         </section>
 
         <section>
 
             <h4>Nuestras Redes</h4>
-            <a href="https://www.facebook.com/"><img src="../img/icono-facebook/favicon-32x32.png" alt="icono facebook"> </a>
-            <a href="https://www.instagram.com/"><img src="../img/icono-instagram/favicon-32x32.png" alt="icono de instagram"> </a>
-            <a href="https://twitter.com/"><img src="../img/icono.twitter/favicon-32x32.png" alt="icono de twitter"> </a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="../img/icono-facebook/favicon-32x32.png" alt="icono facebook"> </a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../img/icono-instagram/favicon-32x32.png" alt="icono de instagram"> </a>
+            <a href="https://twitter.com/" target="_blank"><img src="../img/icono.twitter/favicon-32x32.png" alt="icono de twitter"> </a>
 
         </section>
         
         <section>
             
             <h4>WhatsApp</h4>
-            <a href="https://web.whatsapp.com/"><img src="../img/icono-whatsapp/favicon-32x32.png" alt="icono de whatsapp">
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="../img/icono-whatsapp/favicon-32x32.png" alt="icono de whatsapp">
             </a>
 
         </section>

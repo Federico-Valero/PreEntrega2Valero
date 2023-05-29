@@ -1,0 +1,19 @@
+.accordion{
+    margin-top: 1rem;
+    .accordion-item{
+        .accordion-header{
+            .accordion-button{
+                background-color: $colorfondo;
+                color: $colorblanco;
+            }
+        }
+        .accordion-collapse{
+            background-color: $colorfondo;
+            color: $colorblanco;
+            .accordion-body{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
