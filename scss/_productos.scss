@@ -15,9 +15,9 @@
     grid-gap: 1rem;
     margin-top: 2rem;
     .filtros{
-        background-color: #8B41F2;
+        background-color: $colorfondo;
         grid-area: filt;
-        color: white;
+        color: $colorblanco;
         margin-left: 1rem;
         .titulo-categorias{
             color: $colorblanco;
@@ -40,7 +40,7 @@
                         list-style: none;
                         .navegador-link{
                             text-decoration: none;
-                            color: white; 
+                            color: $colorblanco; 
                             &:hover{
                                 color: #53A61C;
                             }

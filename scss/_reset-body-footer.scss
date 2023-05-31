@@ -9,7 +9,7 @@
 }
 
 .footer-principal{
-    background-color: #8B41F2;
+    background-color: $colorfondo;
     width: 90%;
     height: 7rem;
     margin: 0 auto;
@@ -17,11 +17,11 @@
     padding: 10px;
     margin-top: 1rem;
     display: flex;
-    color: white;
+    color: $colorblanco;
     justify-content: space-between;
     .navegador-link{
         text-decoration: none;
-        color: white; 
+        color: $colorblanco; 
         &:hover{
             color: #53A61C;
         }

@@ -7,7 +7,7 @@
   background-image: url(../img/fondo-de-pagina.jpg); }
 
 .footer-principal {
-  background-color: #8B41F2;
+  background-color: #9879D9;
   width: 90%;
   height: 7rem;
   margin: 0 auto;
@@ -33,16 +33,16 @@
   width: 90%;
   margin: 0 auto; }
   .cabecera .titulo {
-    background-color: #8B41F2;
+    background-color: #9879D9;
     color: white;
     margin-top: 1rem;
     border-radius: 10px; }
   .cabecera .barra-de-navegacion {
-    background-color: #8B41F2;
+    background-color: #9879D9;
     border-radius: 10px;
     margin-top: 1rem; }
     .cabecera .barra-de-navegacion .container-fluid {
-      background-color: #8B41F2;
+      background-color: #9879D9;
       z-index: 100; }
       .cabecera .barra-de-navegacion .container-fluid .navbar-collapse {
         list-style: none;
@@ -70,7 +70,7 @@
   grid-gap: 1rem;
   margin-top: 2rem; }
   .contenedor-grid .filtros {
-    background-color: #8B41F2;
+    background-color: #9879D9;
     grid-area: filt;
     color: white;
     margin-left: 1rem; }
@@ -78,16 +78,16 @@
       color: white;
       text-align: center; }
     .contenedor-grid .filtros .accordion {
-      background-color: #8B41F2; }
+      background-color: #9879D9; }
       .contenedor-grid .filtros .accordion .accordion-item {
-        background-color: #8B41F2; }
+        background-color: #9879D9; }
         .contenedor-grid .filtros .accordion .accordion-item .accordion-header {
-          background-color: #8B41F2; }
+          background-color: #9879D9; }
           .contenedor-grid .filtros .accordion .accordion-item .accordion-header .accordion-button {
-            background-color: #8B41F2;
+            background-color: #9879D9;
             color: white; }
         .contenedor-grid .filtros .accordion .accordion-item .accordion-collapse {
-          background-color: #8B41F2; }
+          background-color: #9879D9; }
           .contenedor-grid .filtros .accordion .accordion-item .accordion-collapse .accordion-body {
             list-style: none; }
             .contenedor-grid .filtros .accordion .accordion-item .accordion-collapse .accordion-body .navegador-link {
@@ -100,7 +100,7 @@
   .contenedor-grid .descripcion1 {
     color: white;
     grid-area: tex1;
-    background-color: #8B41F2;
+    background-color: #9879D9;
     height: 10rem;
     width: 90%; }
   .contenedor-grid .imagen-producto2 {
@@ -108,7 +108,7 @@
   .contenedor-grid .descripcion2 {
     color: white;
     grid-area: tex2;
-    background-color: #8B41F2;
+    background-color: #9879D9;
     height: 10rem;
     width: 90%; }
   .contenedor-grid .imagen-producto3 {
@@ -116,7 +116,7 @@
   .contenedor-grid .descripcion3 {
     color: white;
     grid-area: tex3;
-    background-color: #8B41F2;
+    background-color: #9879D9;
     height: 10rem;
     width: 90%; }
   .contenedor-grid .imagen-producto4 {
@@ -124,7 +124,7 @@
   .contenedor-grid .descripcion4 {
     color: white;
     grid-area: tex4;
-    background-color: #8B41F2;
+    background-color: #9879D9;
     height: 10rem;
     width: 90%; }
   .contenedor-grid .imagen-producto5 {
@@ -132,7 +132,7 @@
   .contenedor-grid .descripcion5 {
     color: white;
     grid-area: tex5;
-    background-color: #8B41F2;
+    background-color: #9879D9;
     height: 10rem;
     width: 90%; }
   .contenedor-grid .imagen-producto6 {
@@ -140,7 +140,7 @@
   .contenedor-grid .descripcion6 {
     color: white;
     grid-area: tex6;
-    background-color: #8B41F2;
+    background-color: #9879D9;
     height: 10rem;
     width: 90%; }
   .contenedor-grid .imagen-producto7 {
@@ -148,7 +148,7 @@
   .contenedor-grid .descripcion7 {
     color: white;
     grid-area: tex7;
-    background-color: #8B41F2;
+    background-color: #9879D9;
     height: 10rem;
     width: 90%; }
   .contenedor-grid .imagen-producto8 {
@@ -156,7 +156,7 @@
   .contenedor-grid .descripcion8 {
     color: white;
     grid-area: tex8;
-    background-color: #8B41F2;
+    background-color: #9879D9;
     height: 10rem;
     width: 90%; }
   @media screen and (max-width: 768px) {
@@ -202,7 +202,7 @@
     grid-area: redes;
     width: 95%;
     height: 11rem;
-    background-color: #8B41F2;
+    background-color: #9879D9;
     color: white; }
     .contenedor-grid-contactanos .redes .whatsapp {
       display: flex;
@@ -211,7 +211,7 @@
     grid-area: mail;
     width: 95%;
     height: 13rem;
-    background-color: #8B41F2;
+    background-color: #9879D9;
     color: white; }
     .contenedor-grid-contactanos .mail .btn {
       color: white;
@@ -220,7 +220,7 @@
     grid-area: mapa;
     width: 89%;
     height: 100%;
-    background-color: #8B41F2;
+    background-color: #9879D9;
     color: white; }
     .contenedor-grid-contactanos .mapa .vista-mapa {
       width: 100%;
@@ -240,10 +240,10 @@
 .accordion {
   margin-top: 1rem; }
   .accordion .accordion-item .accordion-header .accordion-button {
-    background-color: #8B41F2;
+    background-color: #9879D9;
     color: white; }
   .accordion .accordion-item .accordion-collapse {
-    background-color: #8B41F2;
+    background-color: #9879D9;
     color: white; }
     .accordion .accordion-item .accordion-collapse .accordion-body {
       display: flex;
@@ -262,7 +262,7 @@
     .contenedor-grid-arma-tu-pc .selector .list-group {
       text-decoration: none; }
       .contenedor-grid-arma-tu-pc .selector .list-group .list-group-item {
-        background-color: #8B41F2;
+        background-color: #9879D9;
         color: white;
         width: 9rem; }
   .contenedor-grid-arma-tu-pc .productos {
@@ -277,7 +277,7 @@
       display: flex;
       align-items: start; }
       .contenedor-grid-arma-tu-pc .productos .producto-arma .descripcion-arma {
-        background-color: #8B41F2;
+        background-color: #9879D9;
         width: 10rem;
         height: 10rem;
         color: white; }
