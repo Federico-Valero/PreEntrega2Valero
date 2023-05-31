@@ -248,3 +248,52 @@
     .accordion .accordion-item .accordion-collapse .accordion-body {
       display: flex;
       flex-direction: column; }
+
+.contenedor-grid-arma-tu-pc {
+  display: grid;
+  grid-template-columns: 30rem 60rem;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "selector productos" "nada productos"; }
+  .contenedor-grid-arma-tu-pc .selector {
+    grid-area: selector;
+    margin-left: 1rem; }
+    .contenedor-grid-arma-tu-pc .selector .titulo-componentes {
+      color: white; }
+    .contenedor-grid-arma-tu-pc .selector .list-group {
+      text-decoration: none; }
+      .contenedor-grid-arma-tu-pc .selector .list-group .list-group-item {
+        background-color: #8B41F2;
+        color: white;
+        width: 9rem; }
+  .contenedor-grid-arma-tu-pc .productos {
+    grid-area: productos;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50rem;
+    justify-content: space-between; }
+    .contenedor-grid-arma-tu-pc .productos .producto-arma {
+      display: flex;
+      align-items: start; }
+      .contenedor-grid-arma-tu-pc .productos .producto-arma .descripcion-arma {
+        background-color: #8B41F2;
+        width: 10rem;
+        height: 10rem;
+        color: white; }
+  .contenedor-grid-arma-tu-pc .nada {
+    grid-area: nada; }
+  @media screen and (max-width: 768px) {
+    .contenedor-grid-arma-tu-pc {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 15rem 88rem;
+      grid-template-areas: "selector" "productos"; }
+      .contenedor-grid-arma-tu-pc .selector .list-group {
+        height: 2rem; }
+      .contenedor-grid-arma-tu-pc .productos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; }
+        .contenedor-grid-arma-tu-pc .productos .producto-arma .descripcion-arma {
+          width: 60%; } }

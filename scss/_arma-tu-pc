@@ -1,0 +1,74 @@
+.contenedor-grid-arma-tu-pc{
+    display: grid;
+    grid-template-columns: 30rem 60rem;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "selector productos"
+    "nada productos"
+    ;
+
+    .selector{
+        grid-area: selector;
+        margin-left: 1rem;
+        .titulo-componentes{
+            color: $colorblanco;
+        }
+        .list-group{
+            text-decoration: none;
+            .list-group-item{
+                background-color: $colorfondo;
+                color: $colorblanco;
+                width: 9rem;
+            }
+        }
+    }
+
+    .productos{
+        grid-area: productos;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 50rem;
+        justify-content: space-between;
+        .producto-arma{
+            display: flex;
+            align-items: start;
+            .descripcion-arma{
+                background-color: $colorfondo;
+                width: 10rem;
+                height: 10rem;
+                color: $colorblanco;
+            }
+        }
+    }
+
+    .nada{
+        grid-area: nada;
+    }
+
+    @include mediaquery(768px){
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15rem 88rem;
+        grid-template-areas: 
+        "selector"
+        "productos"
+        ;
+        .selector{
+            .list-group{
+                height: 2rem;
+            }
+        }
+        .productos{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            .producto-arma{
+                .descripcion-arma{
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
