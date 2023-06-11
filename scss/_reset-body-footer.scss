@@ -19,11 +19,12 @@
     display: flex;
     color: $colorblanco;
     justify-content: space-between;
+    font-family: $letra;
     .navegador-link{
         text-decoration: none;
         color: $colorblanco; 
         &:hover{
-            color: #53A61C;
+            color: #55CCD9;
         }
     }
     @include mediaquery(768px){

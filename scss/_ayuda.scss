@@ -1,15 +1,19 @@
 .accordion{
-    margin-top: 1rem;
+    margin: 1rem auto;
+    width: 90%;
+
     .accordion-item{  
         .accordion-header{
             .accordion-button{
                 background-color: $colorfondo;
                 color: $colorblanco;
+                font-family: $letra;
             }
         }
         .accordion-collapse{
             background-color: $colorfondo;
             color: $colorblanco;
+            font-family: $letra;
             .accordion-body{
                 display: flex;
                 flex-direction: column;

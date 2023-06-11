@@ -16,6 +16,7 @@
         height: 11rem;
         background-color: $colorfondo;
         color: $colorblanco;
+        font-family: $letra;
         .whatsapp{
             display: flex;
             justify-content: space-between;
@@ -27,6 +28,7 @@
         height: 13rem;
         background-color: $colorfondo;
         color: $colorblanco;
+        font-family: $letra;
         .btn{
             color: $colorblanco;
             margin-top: .5rem;
@@ -38,6 +40,7 @@
         height: 100%;
         background-color: $colorfondo;
         color: $colorblanco;
+        font-family: $letra;
         .vista-mapa{
             width: 100%;
             height: 300px;

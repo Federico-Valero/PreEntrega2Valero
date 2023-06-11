@@ -32,6 +32,7 @@
                     .accordion-button{
                         background-color: $colorfondo;
                         color: $colorblanco;
+                        font-family: $letra;
                     }
                 }
                 .accordion-collapse{
@@ -60,6 +61,7 @@
             background-color: $colorfondo;
             height: 10rem;
             width: 90%;
+            font-family: $letra;
         }
     }
     @include mediaquery(768px){
